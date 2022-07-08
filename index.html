@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>
+      Desafío | Curso de JavaScript en CoderHouse
+    </title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <section id="header">
+          <h1 class="h1"></h1>
+          <h2 class="h2">Proyecto final</h2>
+        </section>
+      </header>
+      <main>
+        <section id="main">
+          <!-- <><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+
+          <!-- Option all <><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+          <section class="optionMenu">
+            <ol class="listOl">
+              <li>Crear nuevo usuario</li>
+              <li>Usuarios y montos de deuda</li>
+              <li>Mostrar estado de deuda</li>
+              <li>Hacer pago de la deuda</li>
+              <li>Private</li>
+            </ol>
+            <form action="" class="form1">
+              <label for="numberOption">
+                <span>Escoge una opcion</span>
+                <input type="number" id="numberOption" />
+              </label>
+              <button type="button" class="optionSubmit">Enviar Option</button>
+            </form>
+          </section>
+          <!-- Verificacion name/password<><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+          <section class="login-off">
+            <form action="" class="">
+              <label for="name" class="">
+                <span>Por favor ingrese tu nombre</span>
+                <input type="text" id="name" required />
+              </label>
+              <label for="password" class="">
+                <span>Por favor ingrese su contrasenna</span>
+                <input type="password" id="password" required />
+              </label>
+              <button type="button" class="botonClick">Enviar peticion</button>
+            </form>
+          </section>
+          <!-- primera funcion <><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+          <section class="firstFunction-off"></section>
+          <!-- segunda fucion<><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+          <section class="secondFuction"></section>
+          <!-- tercera funcion<><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+          <section class="thirdFunction">
+            <div class="divNone"></div>
+          </section>
+          <!-- cuarta funcion<><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+          <section class="more-off">
+            <a href="./pages/developerOptions.html">Manager Option</a>
+          </section>
+          <!-- quinta funcion<><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->\
+          <section class="fifthFunction-off">
+            <form class="formCreate">
+              <label for="newUser">
+                <span>Como quieres llamarte</span>
+                <input type="text" id="newUser" required />
+              </label>
+              <!-- <><><><><><><><><<><><><><>>< -->
+              <label for="newPassword">
+                <span>Como quieres que sea tu contrasenna</span>
+                <input type="password" id="newPassword" required />
+              </label>
+              <!-- <><><><><><><><><<><><><><>>< -->
+              <label for="newDebt">
+                <span>Cuento quieres de prestamo</span>
+                <input type="number" id="newDebt" required />
+              </label>
+              <!-- <><><><><><><><><<><><><><>>< -->
+              <label for="newComment">
+                <span>Para que quieres el prestamo</span>
+                <input type="text" id="newComment" required />
+              </label>
+              <button type="button" class="sendNewInformation">
+                Crear usuario
+              </button>
+            </form>
+          </section>
+          <!-- <><>><><><><<><><><><><><><><<><><>><><><><><<<<<><><><<<><<><><><><><<<<><><><<><<><<<<><><><><> -->
+        </section>
+      </main>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./app/constructions.js"></script>
+    <script src="./app/funciones.js"></script>
+    <script src="./app/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>developerOptions</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="../style/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <section id="header">
+          <h1 class="devH1"></h1>
+          <h2 class="devH2"></h2>
+        </section>
+      </header>
+      <main>
+        <section id="main">
+          <section class="fourthFunction">
+            <section class="firstPhase">
+              <ol class="listOlAdmit">
+                <li>Ver lista de endeudados</li>
+                <li>Eliminar alguna deuda</li>
+                <li>Other</li>
+                <li>Other</li>
+              </ol>
+              <form action="">
+                <label for="admit">
+                  <span>Escoge que accion quieres hacer</span>
+                  <input type="number" id="admit" />
+                </label>
+                <button type="button" class="submitAdmit">
+                  Enviar peticion
+                </button>
+              </form>
+            </section>
+            <section class="secondPhase">
+              <div class="listDebt-off">
+                <span style="grid-area: spanName">Name</span>
+                <span style="grid-area: spanDebt">Debt</span>
+                <span style="grid-area: spanPaymentStatus">PaymentStatus</span>
+                <div class="names same" style="grid-area: names"></div>
+                <div class="debts same" style="grid-area: debts"></div>
+                <div
+                  class="paymentStatus same"
+                  style="grid-area: paymentStatus"
+                ></div>
+                <button
+                  type="button"
+                  class="buttonBack"
+                  style="grid-area: botonBack"
+                >
+                  Atras
+                </button>
+              </div>
+            </section>
+          </section>
+          <section class="removeList">
+            <div class="containerBox-off">
+              <div class="boxTitles">
+                <span class="titles">Name</span>
+                <span class="titles">Debt</span>
+                <span class="titles">PaymentStatus</span>
+              </div>
+              <button type="button" class="buttonBack-off">Atras</button>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="../app/constructions.js"></script>
+    <script src="../app/funciones.js"></script>
+    <script src="../app/index.js"></script>
+    <script src="../app/dev.js"></script>
+  </body>
+</html>

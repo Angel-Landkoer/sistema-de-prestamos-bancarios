@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "Ryan",
+      "password": "Ryan02",
+      "debt": 6100,
+      "paymentStatus": true
+    },
+    {
+      "name": "John",
+      "password": "juegola",
+      "debt": 2000,
+      "paymentStatus": false
+    },
+    {
+      "name": "Carlos",
+      "password": "Carlos Antonio",
+      "debt": 1300,
+      "paymentStatus": true
+    },
+    {
+      "name": "Lisi",
+      "password": "LisiLamas",
+      "debt": 2500,
+      "paymentStatus": true
+    },
+    {
+      "name": "Maria",
+      "password": "Milia",
+      "debt": 5200,
+      "paymentStatus": true
+    },
+    {
+      "name": "Lucas",
+      "password": "contrasenna",
+      "debt": 3850,
+      "paymentStatus": false
+    },
+    {
+      "name": "Martin",
+      "password": "game12",
+      "debt": 1900,
+      "paymentStatus": true
+    },
+    {
+      "name": "Angel",
+      "password": "MatildaGomez",
+      "debt": 300000,
+      "paymentStatus": false
+    }
+  ]
+}
